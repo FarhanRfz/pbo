@@ -68,7 +68,6 @@ class Kampus extends Model
             $stmt->bindParam(":kampus_id", $id);
 
             $stmt->execute();
-            $stmt->execute();
       }
 
       public function delete($id)
